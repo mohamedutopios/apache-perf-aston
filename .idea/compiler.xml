@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="GatewayService (1)" />
+        <module name="DemoSwing" />
+        <module name="demoRouting" />
+        <module name="client-service (1)" />
+        <module name="shared (1)" />
+        <module name="demo_design_pattern" />
+        <module name="blog" />
+        <module name="acount-service (1)" />
+        <module name="order-service (1)" />
+        <module name="Demo_Jpa" />
+        <module name="inventory-service" />
+        <module name="starter_app (1)" />
+        <module name="mvc-spring" />
+        <module name="exercice1 (4)" />
+        <module name="infrastructure_spring_data" />
+        <module name="poo_java" />
+        <module name="acount-service" />
+        <module name="inventory-service (1)" />
+        <module name="demo_aspect" />
+        <module name="demo_basic_hexagonal" />
+        <module name="solid-demo" />
+        <module name="Demo" />
+        <module name="back_employee" />
+        <module name="starter_app" />
+        <module name="domain (1)" />
+        <module name="cdi" />
+        <module name="product-service (2)" />
+        <module name="CarRideSerice" />
+        <module name="payment-service (1)" />
+        <module name="micro-order" />
+        <module name="GatewayService" />
+        <module name="demo_jstl" />
+        <module name="CommentService" />
+        <module name="exercice1 (1)" />
+        <module name="rest_adapter" />
+        <module name="domain" />
+        <module name="order-service" />
+        <module name="tp_Architecture" />
+        <module name="spring-petclinic (1)" />
+        <module name="demo_api_rest" />
+        <module name="client-service" />
+        <module name="exercice6" />
+        <module name="exercice7" />
+        <module name="shared" />
+        <module name="exercice4" />
+        <module name="exercice5" />
+        <module name="UserService (1)" />
+        <module name="exercice3" />
+        <module name="exercice1" />
+        <module name="panache" />
+        <module name="product-service (1)" />
+        <module name="Tp1_film" />
+        <module name="Tp_Computer" />
+        <module name="demo_Cookies_Session" />
+        <module name="correction_exercice_2" />
+        <module name="payment-service" />
+        <module name="demo_upload" />
+        <module name="exercice1 (2)" />
+        <module name="demo (2)" />
+        <module name="correction_exercice_1" />
+        <module name="exercice8" />
+        <module name="exercice9" />
+        <module name="jdbc_demo" />
+        <module name="demos_hibernate" />
+        <module name="UserService" />
+        <module name="product-service" />
+        <module name="DemeRemediation" />
+        <module name="demo_java_base" />
+        <module name="ntiers" />
+        <module name="ntiers (1)" />
+        <module name="demo_api_Cookie_Session" />
+        <module name="spring-petclinic" />
+        <module name="demo_bases" />
+        <module name="esb" />
+        <module name="demo (1)" />
+        <module name="demo_parameters" />
+        <module name="exercice1 (3)" />
+        <module name="micro-product" />
+        <module name="AuthenticationService" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AuthenticationService" options="-parameters" />
+      <module name="CarRideSerice" options="-parameters" />
+      <module name="CommentService" options="-parameters" />
+      <module name="GatewayService" options="-parameters" />
+      <module name="GatewayService (1)" options="-parameters" />
+      <module name="UserService" options="-parameters" />
+      <module name="UserService (1)" options="-parameters" />
+      <module name="acount-service" options="-parameters" />
+      <module name="acount-service (1)" options="-parameters" />
+      <module name="back_employee" options="-parameters" />
+      <module name="blog" options="-parameters" />
+      <module name="cdi" options="-parameters" />
+      <module name="client-service" options="-parameters" />
+      <module name="client-service (1)" options="-parameters" />
+      <module name="correction_exercice_1" options="-parameters" />
+      <module name="correction_exercice_2" options="-parameters" />
+      <module name="demo (1)" options="-parameters" />
+      <module name="demo (2)" options="-parameters" />
+      <module name="demo_aspect" options="-parameters" />
+      <module name="demo_basic_hexagonal" options="-parameters" />
+      <module name="infrastructure_spring_data" options="-parameters" />
+      <module name="inventory-service" options="-parameters" />
+      <module name="inventory-service (1)" options="-parameters" />
+      <module name="micro-order" options="-parameters" />
+      <module name="micro-product" options="-parameters" />
+      <module name="mvc-spring" options="-parameters" />
+      <module name="ntiers" options="-parameters" />
+      <module name="ntiers (1)" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="order-service (1)" options="-parameters" />
+      <module name="panache" options="-parameters" />
+      <module name="payment-service" options="-parameters" />
+      <module name="payment-service (1)" options="-parameters" />
+      <module name="product-service" options="-parameters" />
+      <module name="product-service (1)" options="-parameters" />
+      <module name="product-service (2)" options="-parameters" />
+      <module name="rest_adapter" options="-parameters" />
+      <module name="spring-petclinic" options="-parameters" />
+      <module name="spring-petclinic (1)" options="-parameters" />
+      <module name="tp_Architecture" options="-parameters" />
+    </option>
+  </component>
+</project>

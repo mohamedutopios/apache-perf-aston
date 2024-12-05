@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learnit_java_core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/solid/SOLID" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-petclinic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-petclinic-microservices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-petclinic-microservices-ok" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-petclinic-ok" vcs="Git" />
+  </component>
+</project>

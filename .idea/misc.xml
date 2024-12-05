@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/esb/esb/pom.xml" />
+        <option value="$PROJECT_DIR$/esb/product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/solid/demo/solid-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/ntiers/pom.xml" />
+        <option value="$PROJECT_DIR$/ntiers2/pom.xml" />
+        <option value="$PROJECT_DIR$/mvc-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-order/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-product/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-petclinic/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-petclinic-ok/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/02_POO/poo_java/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/05_JPA/Demo/Demo_Jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/05_JPA/Demo/DemoRemediation/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/05_JPA/Exercice/Tp_Computer/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/demos/demo_jstl/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/demos/demo_bases/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/demos/demo_upload/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/demos/demoRouting/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/demos/demo_api_rest/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/demos/demo_parameters/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/demos/demo_Cookies_Session/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/demos/demo_api_Cookie_Session/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/exercices/exercice1/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/exercices/exercice2/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/exercices/exercice3/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/exercices/exercice4/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/exercices/exercice5/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/exercices/exercice6/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/exercices/exercice7/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/exercices/exercice8/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/08_JEE/exercices/exercice9/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/04_JDBC/TP/Tp1_film/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/04_JDBC/Demo/jdbc_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/01_Bases/demo_java_base/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/10_Swing/DemoSwing/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/06_Hibernate/Demo/demos_hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/06_Hibernate/Exercice/exercice1/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/06_Hibernate/Exercice/exercice2_3/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/06_Hibernate/Exercice/exercice4_5/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/07- TestJava/Demo/TDD/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/18_JAVA/03_DESIGN_PATTERN/demo_design_pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/19_Docker/Demos/demo_java_spring_dockerfile/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/19_Docker/Demos/demo_dockerCompose_microservice/carride/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/19_Docker/Demos/demo_dockerCompose_microservice/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/19_Docker/Demos/demo_dockerCompose_microservice/UserService/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/19_Docker/Demos/demo_dockerCompose_microservice/CommentService/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/19_Docker/Exercice/exercice_docker_compose/back_employee/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/cdi/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros/acount-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros/client-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros/payment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros/product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros/inventory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/panache/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros_kong_keycloak/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros_kong_keycloak/acount-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros_kong_keycloak/client-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros_kong_keycloak/payment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros_kong_keycloak/product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros_kong_keycloak/inventory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/demo_aspect/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/TP_Architecture/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/demo_hexagonal_2/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/demo_hexagonal_2/domain/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/demo_hexagonal_2/shared/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/demo_hexagonal_2/starter_app/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/demo_hexagonal_2/rest_adapter/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/demo_hexagonal_2/infrastructure_spring_data/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/MicroServiceSpring/CovoiturageAppmicro/UserService/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/MicroServiceSpring/CovoiturageAppmicro/GatewayService/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/MicroServiceSpring/CovoiturageAppmicro/AuthenticationService/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/demo_basic_hexagonal/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/correction_exercice_1/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/correction_exercice_2/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/TP_Hexagonal_MultiSpring/domain/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/TP_Hexagonal_MultiSpring/shared/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/TP_Hexagonal_MultiSpring/starter_app/pom.xml" />
+        <option value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/20_Architectures_application/TP_Hexagonal_MultiSpring/rest_adapter/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd314d35-b457-4ef8-8af6-ce4b71d87552" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/esb/product-service/src/main/java/org/example/productservice/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esb/product-service/src/main/java/org/example/productservice/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esb/product-service/src/main/java/org/example/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esb/product-service/src/main/java/org/example/productservice/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-order/src/main/java/com/example/microorder/client/RestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-order/src/main/java/com/example/microorder/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-order/src/main/java/com/example/microorder/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-order/src/main/java/com/example/microorder/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-order/src/main/java/com/example/microorder/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-order/src/main/java/com/example/microorder/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-order/src/main/java/com/example/microorder/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-order/src/main/java/com/example/microorder/resource/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-order/src/main/java/com/example/microorder/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-order/src/main/java/com/example/microorder/utils/DTOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-product/src/main/java/com/example/microproduct/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-product/src/main/java/com/example/microproduct/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-product/src/main/java/com/example/microproduct/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-product/src/main/java/com/example/microproduct/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-product/src/main/java/com/example/microproduct/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-product/src/main/java/com/example/microproduct/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-product/src/main/java/com/example/microproduct/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-product/src/main/java/com/example/microproduct/utils/DTOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-spring/src/main/java/com/example/mvcspring/controller/ContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-spring/src/main/java/com/example/mvcspring/model/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-spring/src/main/java/com/example/mvcspring/repository/ContactRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-spring/src/main/java/com/example/mvcspring/service/ContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-spring/src/main/resources/templates/contactForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-spring/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/exception/GlobalHandlerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/service/AlternativeProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/java/com/example/ntiers/utils/DTOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers2/src/main/java/com/example/ntiers/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers2/src/main/java/com/example/ntiers/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers2/src/main/java/com/example/ntiers/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers2/src/main/java/com/example/ntiers/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers2/src/main/java/com/example/ntiers/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers2/src/main/java/com/example/ntiers/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers2/src/main/java/com/example/ntiers/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers2/src/main/java/com/example/ntiers/service/AlternativeProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers2/src/main/java/com/example/ntiers/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers2/src/main/java/com/example/ntiers/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers2/src/main/java/com/example/ntiers/utils/DTOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ntiers2/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/dip/problem/SQLDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/dip/problem/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/dip/solution/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/dip/solution/MongoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/dip/solution/SQLDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/dip/solution/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/dip/solution/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/dry/problem/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/dry/solution/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/isp/problem/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/isp/problem/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/isp/problem/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/isp/solution/Eatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/isp/solution/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/isp/solution/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/isp/solution/Workable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/kiss/KissPrincipleProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/kiss/KissPrincipleSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/lsp/problem/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/lsp/problem/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/lsp/solution/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/lsp/solution/FlyingBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/lsp/solution/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/ocp/problem/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/ocp/solution/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/ocp/solution/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/ocp/solution/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/srp/problem/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/srp/solution/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/srp/solution/InvoicePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/yagni/problem/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/main/java/org/example/yagni/solution/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid/demo/solid-demo/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support.md" beforeDir="false" afterPath="$PROJECT_DIR$/support.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2nb90ehnh099kmzmlq6GXqqLwdG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/mohamedaijjou/Downloads/support-architecture-logicielle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Quarkus.cdi">
+    <configuration name="cdi" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="cdi" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/cdi" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client-service (1)" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="client-service (1)" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros_kong_keycloak/client-service" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client-service" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="client-service" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros/client-service" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo (1)" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="demo (1)" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/demo" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="inventory-service (1)" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="inventory-service (1)" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros_kong_keycloak/inventory-service" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="inventory-service" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="inventory-service" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros/inventory-service" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="order-service (1)" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="order-service (1)" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros_kong_keycloak/order-service" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="order-service" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="order-service" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros/order-service" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="panache" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="panache" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/panache" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="payment-service (1)" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="payment-service (1)" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros_kong_keycloak/payment-service" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="payment-service" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="payment-service" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros/payment-service" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="product-service (1)" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="product-service (1)" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros/product-service" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="product-service (2)" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="product-service (2)" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/CDA_LILLE_26_OCTOBRE/21_Quarkus/micros_kong_keycloak/product-service" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcountServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="acount-service (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.acountservice.AcountServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="acount-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.acountservice.AcountServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackEmployeeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="back_employee" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.employee.back_employee.BackEmployeeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.myblog.blog.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarRideServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="CarRideSerice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.CarRideService.CarRideServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="CommentService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.applicovoiturage.CommentService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="GatewayService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gatewayservice.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="micro-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.microorder.MicroOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="micro-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.microproduct.MicroProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MvcSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mvc-spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mvcspring.MvcSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NtiersApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ntiers (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ntiers.NtiersApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NtiersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ntiers" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ntiers.NtiersApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetClinicApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-petclinic (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.samples.petclinic.PetClinicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetClinicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-petclinic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.samples.petclinic.PetClinicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.productservice.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="UserService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd314d35-b457-4ef8-8af6-ce4b71d87552" name="Changes" comment="" />
+      <created>1729230686932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729230686932</updated>
+      <workItem from="1729230688054" duration="132000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
