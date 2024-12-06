@@ -130,7 +130,7 @@ Configurez Apache sur les deux serveurs pour agir comme reverse proxies.
 Éditez `/etc/apache2/sites-available/000-default.conf` :
 ```apache
 <VirtualHost *:80>
-    ServerName 192.168.1.200  # Correspond à la VIP
+    ServerName 192.168.1.200 
 
     ProxyPreserveHost On
 
